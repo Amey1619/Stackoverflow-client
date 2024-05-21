@@ -40,7 +40,16 @@ This is a brief report on the project assigned to me during my internship 4 mont
   - MongoDB Atlas/Compass
 
 ## Images
-<img src="./public/Screenshots/Home.png" height="30px" align="center"/>
+<img src="./public/Screenshots/Create Account.png" height="90px" margin-bottom="2px" align="left"/>
+<img src="./public/Screenshots/Login form.png" height="90px" margin-bottom="2px" align="left"/>
+<img src="./public/Screenshots/Home.png" height="90px" margin-bottom="2px" align="left"/>
+<img src="./public/Screenshots/Tags.png" height="90px" margin-bottom="2px" align="left"/>
+<img src="./public/Screenshots/Ask a public question.png" height="90px" margin-bottom="2px" align="left"/>
+<img src="./public/Screenshots/All Questions.png" height="90px" margin-bottom="2px" align="left"/>
+<img src="./public/Screenshots/Users.png" height="90px" margin-bottom="2px" align="left"/>
+<img src="./public/Screenshots/My Questions.png" height="90px" margin-bottom="2px" align="left"/>
+<img src="./public/Screenshots/Forgot Password.png" height="90px" margin-bottom="2px" align="left"/>
+<img src="./public/Screenshots/Reset Password.png" height="90px" margin-bottom="2px" align="left"/>
 
 ## Link
 **Depolyed**:  **[Live Link](https://stackoverflow-client-neon.vercel.app/)**
