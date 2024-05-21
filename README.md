@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Null Class Internship Report
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+This is a brief report on the project assigned to me during my internship 4 months ago. During the internship, I was tasked with completing my training on the MERN stack by cloning the Stack Overflow website. After completion, I was assigned nine tasks, out of which I was required to complete at least one to successfully finish my internship. This report summarizes the details of the project and the task I completed.
 
-## Available Scripts
+## Task Completed
+**Add "Forgot Password" Option**: Create a page and route to reset the password using email or phone number.
 
-In the project directory, you can run:
+## Features of the Website
+1. **User Authentication**:
+    - Users can sign up to create an account and post questions.
+    - Once an account is created, users can log in/logout anytime and post questions whenever they want.
+    - If a user forgets their password, they can reset it using their Gmail account. Verification is done via an OTP sent directly to their email.
 
-### `npm start`
+2. **Question and Answer Functionality**:
+    - Users can ask questions.
+    - Users can view questions.
+    - Users can answer questions.
+    - Users can delete only their posted questions or answers but cannot delete other users' questions or answers.
+    - Users can upvote/downvote questions.
+    - Users can share any user's post, including their own.
+    - Users can view and edit their profile.
+    - Users can see a list of users and their profiles.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technology Used
+- **Frontend**:
+  - React.js
+  - Redux
+  - React-Router-Dom-V6
+  - Material UI Icons
+  - React Simple Chatbot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Backend**:
+  - Node.js
+  - Express.js
+  - Nodemailer
+  - Mongoose
 
-### `npm test`
+- **Database**:
+  - MongoDB Atlas/Compass
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Images
+<img src="./public/Screenshots/Home.png" height="30px" align="center"/>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Link
+**Depolyed**:  **[Live Link](https://stackoverflow-client-neon.vercel.app/)**
